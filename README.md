@@ -3,5 +3,5 @@ It's a discord bot that can convert from BinToDec/DecToHex/BinToHex and converse
 Example:
 BinToDec 10011010010
 [Output: 1234]
-You can use BinToDec, DecToBin, DecToHex, HexToDec, BinToHec, HexToBin
+You can use BinToDec, DecToBin, DecToHex, HexToDec, BinToHex, HexToBin
 ```
