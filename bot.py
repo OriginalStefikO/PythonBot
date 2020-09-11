@@ -2,7 +2,9 @@ import discord
 
 class MyClient(discord.Client):
     async def on_ready(self):
+        await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="Random things"))
         print('Bot je ready')
+
 
     async def on_message(self, message):
         # don't respond to ourselves
@@ -54,4 +56,4 @@ class MyClient(discord.Client):
             await message.channel.send(hex(bide).replace("0x",""))
 
 client = MyClient()
-client.run('token')
+client.run('Token-here')
